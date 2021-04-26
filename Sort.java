@@ -4,8 +4,10 @@ class Sort {
 	public static void main(String args[]) {
 		int numbers[] = { 43, 23, 54, 62, 10 };
 		System.out.print("the numbers before sorting are: " );
+		//to print the array
 		for(int index=0;index<numbers.length;index++) {
 			System.out.print(numbers[index]+" | ");
+			
 		}
 		for (int rounds = 0; rounds < numbers.length; rounds++) {
 			for (int index = 0; index < numbers.length-1; index++) {
